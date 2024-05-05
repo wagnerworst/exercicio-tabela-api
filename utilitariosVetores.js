@@ -1,4 +1,4 @@
-export function filtrarVetor(listaOriginal, valorDeBusca, propriedade) {
+export function FiltrarVetor(listaOriginal, valorDeBusca, propriedade) {
     if(propriedade == "title")
     {
         return listaOriginal.filter((objeto) => objeto.title == valorDeBusca);
